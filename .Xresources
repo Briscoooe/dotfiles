@@ -1,0 +1,48 @@
+!URxvt settings
+URxvt.font: xft:Hack:size=10
+URxvt.scrollBar: false
+URvxt.depth: 32
+
+!URxvt colors
+URxvt*background: #3c3c3c
+URxvt*foreground: #FFFFFF
+URvxt*cursorColor: #D3D0C8
+URvxt*hightlightColor: #48BF84 
+
+URxvt*color0:                         #2d2d2d
+URxvt*color1:                         #f2777a
+URxvt*color2:                         #99cc99
+URxvt*color3:                         #ffcc66
+URxvt*color4:                         #6699cc
+URxvt*color5:                         #cc99cc
+URxvt*color6:                         #66cccc
+URxvt*color7:                         #d3d0c8
+URxvt*color8:                         #747369
+URxvt*color9:                         #f2777a
+URxvt*color10:                        #99cc99
+URxvt*color11:                        #ffcc66
+URxvt*color12:                        #6699cc
+URxvt*color13:                        #cc99cc
+URxvt*color14:                        #66cccc
+URxvt*color15:                        #f2f0ec
+
+URxvt*color16:                        #f99157
+URxvt*color17:                        #d27b53
+URxvt*color18:                        #393939
+URxvt*color19:                        #515151
+URxvt*color20:                        #a09f93
+URxvt*color21:                        #e8e6df
+
+!Rofi settings
+rofi.color-enabled: true
+!			    underline and border
+rofi.color-window: #3c3c3c, #f5f5f5
+!			     alternate row   	 	  text color
+rofi.color-normal: #3c3c3c,  #F5F5F5,  #3c3c3c, #087e8b, #F5F5F5
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+rofi.font: Hack 12
+rofi.opacity: 90
+
+!i3 settings
+

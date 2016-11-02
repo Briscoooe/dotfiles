@@ -1,7 +1,7 @@
 /* Custom styles */
 
 /* select-on */
-@define-color selected_bg_color #2a4747;
+@define-color selected_bg_color #3c3c3c;
 @define-color selected_fg_color #eeeeee;
 @define-color theme_selected_bg_color @selected_bg_color;
 @define-color theme_selected_fg_color @selected_fg_color;
@@ -189,3 +189,5 @@ GtkTreeMenu .menuitem * {
 }
 
 /* menu-on */
+
+

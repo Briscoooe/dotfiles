@@ -220,13 +220,13 @@ exec --no-startup-id redshift-gtk
 exec --no-startup-id setxkbmap -layout gb
 exec --no-startup-id owncloud
 exec --no-startup-id nm-applet
-exec --no-startup-id kalu
+#exec --no-startup-id /home/r00t/.config/i3/example.sh | lemonbar -p
+
 
 exec --no-startup-id i3-msg 'workspace $w8; exec "java -jar /home/r00t/Downloads/masterpassword-gui.jar &"'
 exec --no-startup-id i3-msg 'workspace $w9; exec /usr/bin/spotify'
 exec --no-startup-id i3-msg 'workspace $w4; exec /usr/bin/thunderbird'
 exec --no-startup-id i3-msg 'workspace $w1; exec /usr/bin/urxvt'
-exec --no-startup-id i3-msg 'workspace $w2; exec /usr/bin/urxvt'
 exec --no-startup-id i3-msg 'workspace $w3; exec /usr/bin/firefox'
 #exec --nostartup-id i3-msg 'workspace $wX; X'
 

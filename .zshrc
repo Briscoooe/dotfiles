@@ -110,6 +110,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias conf="vim .config/i3/config"
 alias orphans="sudo pacman -Rns $(pacman -Qtdq)"
+alias newterm="urxvt &"
 
 bindkey "5C" forward-word
 bindkey "5D" backward-word

@@ -76,16 +76,16 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-set $w1 1: Term 
-set $w2 2: Term 
-set $w3 3: Firefox 
-set $w4 4: Thunderbird 
-set $w5 5: Code 
-set $w6 6: Code 
-set $w7 7: Tor 
-set $w8 8: Password 
-set $w9 9: Spotify 
-set $w10 10: Extra 
+set $w1 1: 
+set $w2 2: 
+set $w3 3: 
+set $w4 4: 
+set $w5 5: 
+set $w6 6: 
+set $w7 7: 
+set $w8 8: 
+set $w9 9: 
+set $w10 10: 
 
 # http://fontawesome.io/cheatsheet/
 
@@ -175,7 +175,7 @@ set $inactive-border  	 #3C3C3C
 # Black = 3C3C3C
 # White = F5F5F5
 
-bindsym $mod+Shift+x exec lock -gpf System San Francisco Display
+bindsym $mod+Shift+x exec ~/.config/i3/i3lock-fancy-multimonitor/lock -gpf Hack -- scrot -z
 
 
 # window colors
@@ -225,9 +225,6 @@ exec --no-startup-id nm-applet
 
 
 exec --no-startup-id i3-msg 'workspace $w8; exec "java -jar /home/r00t/Downloads/masterpassword-gui.jar &"'
-exec --no-startup-id i3-msg 'workspace $w9; exec /usr/bin/spotify'
-exec --no-startup-id i3-msg 'workspace $w4; exec /usr/bin/thunderbird'
-exec --no-startup-id i3-msg 'workspace $w3; exec /usr/bin/firefox'
 #exec --nostartup-id i3-msg 'workspace $wX; X'
 
 #assign [class=^spotify$"] $w9

@@ -59,6 +59,10 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'vim-scripts/vim-auto-save'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+
+let g:jsx_ext_required = 0
 
 let g:auto_save = 1
 
